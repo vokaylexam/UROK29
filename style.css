@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-image: url('games-bg.jpg');
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .header {
@@ -55,7 +55,6 @@ body {
 
 .topbar p {
     font-size: 14px;
-    
 }
 
 .games {
@@ -76,5 +75,36 @@ body {
     font-size: 11px;
     padding: 11px 15px 15px 15px;
     color: #5d91a3;
-    font-family: "Lucida Sans Unicode", 
+    font-family: "Lucida Sans Unicode",
+}
+
+.line {
+    height: 166px;
+    display: flex;
+    background-image: url('box-bg-one.gif')
+}
+
+.box_other_games {
+    width: 327px;
+    color: #07344a;
+    text-align: center;
+    padding-top: 14px;
+    box-sizing: border-box;
+    background: #010e16;
+}
+
+.shadowbar {
+    margin-top: 29px;
+}
+
+.box_other_games:hover {
+    opacity: 0.80;
+}
+
+.box:hover {
+    opacity: 0.80;
+}
+
+.link:hover {
+    opacity: 0.80;
 }
